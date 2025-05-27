@@ -9,7 +9,7 @@ const About = () => {
 
                 {/* Here is image  */}
                 <div className=" w-full md:w-[45%] flex justify-center items-center">
-                    <img className="w-[70%] md:w-[50%] border-4 md:border-8 rounded-full border-cyan-400" src={me} alt="" />
+                    <img className="w-[70%] md:w-[50%] border-4 md:border-8 rounded-full border-cyan-500" src={me} alt="" />
                 </div>
 
                     {/* Here is About descriptions  */}

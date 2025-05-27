@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-3">
                         <img className="w-10 h-10 rounded-full" src={pic} alt="" />
                         <h1 className="font-bold text-xl cursor-pointer">
-                            Nang<span className="text-cyan-400">zai</span>
+                            Nang<span className="text-cyan-500">zai</span>
                             <p className="text-lg font-semibold">Front-end Developer</p>
                         </h1>
                     </div>

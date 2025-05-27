@@ -12,13 +12,13 @@ const Home = () => {
         <div id="home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-11 md:my-20 md:bg-cover">
             <div className="flex flex-col md:flex-row ">
                 <div className="w-full md:w-1/2 ml-2 md:ml-32 mt-8 md:mt-24 text-2xl md:text-5xl font-bold space-y-2 md:space-y-5">
-                    <h1 className="bg-cyan-600 text-gray-300 w-[30%] md:w-[28%] px-2 md:px-4 py-1 md:py-3 rounded-tl-3xl rounded-r-3xl">Hello!</h1>
+                    <h1 className="bg-cyan-500 text-gray-300 w-[30%] md:w-[28%] px-2 md:px-4 py-1 md:py-3 rounded-tl-3xl rounded-r-3xl">Hello!</h1>
                     <h1 className="">I'm Nangzai,</h1>
                     <h1 className="">a 
                         <span className="pl-3">
                         <ReactTyped
-                            className="text-cyan-400"
-                            strings={["Frontend Developer", "React.JS Developer", "Web Developer"]}
+                            className="text-cyan-500"
+                            strings={["Frontend Developer", "ReactJS Developer", "Web Developer"]}
                             typeSpeed={40}
                             backSpeed={50}
                             loop={true}
@@ -36,7 +36,7 @@ const Home = () => {
                     </div>
 
                     {/* <button>Get Resume</button> */}
-                        <button className="btn btn-outline btn-info px-1 md:px-4 py-1 md:py-2"><a href={resume} className="download">GET RESUME</a> <span><MdCloudDownload /></span></button>
+                        <button className="btn border-2 border-cyan-500  px-1 md:px-4 py-1 md:py-2"><a href={resume} className="download">GET RESUME</a> <span><MdCloudDownload /></span></button>
                 </div>
 
                 {/* This is My photo section  */}
